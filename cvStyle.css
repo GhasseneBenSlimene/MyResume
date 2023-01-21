@@ -1,0 +1,234 @@
+body{
+    background-color: beige;
+}
+
+.droit{
+    background-color: #fbb03B;
+}
+
+#monPhoto{
+    border-radius: 50%;
+    position: relative;
+    left:40px;
+    background-color: #fbb03B;
+    padding: 20px;
+    width: 100%;
+}
+
+#haut-gauche{
+    border-top-right-radius: 100px;
+}
+
+.progress-bar{
+    width: 100%;
+    height: 10px;
+    background-color: #2D3748;
+    position:relative;
+    bottom:7px;
+    right:10px;
+    border-radius: 5px;
+}
+
+.py-progress{
+    height: 100%;
+    width:90%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.C-progress{
+    height: 100%;
+    width:80%;
+    background-color: white;
+    border-radius: 5px;
+}
+.Java-progress{
+    height: 100%;
+    width:75%;
+    background-color: white;
+    border-radius: 5px;
+}
+.hc-progress{
+    height: 100%;
+    width:75%;
+    background-color: white;
+    border-radius: 5px;
+}
+.Li-progress{
+    height: 100%;
+    width:70%;
+    background-color: white;
+    border-radius: 5px;
+}
+.od-progress{
+    height: 100%;
+    width:65%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.lang{
+    position: relative;
+    display: inline-block;
+    height: 13px;
+    width:13px;
+    background-color: #2D3748;
+    margin-left: 5px;
+    bottom:8px;
+    border-radius: 50%;
+}
+
+.lang-col{
+    display: inline-block;
+    height: 100%;
+    width:100%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+h3{
+    font-size: 22px;
+    text-indent: 10px;
+    font-family:'Segoe UI';
+    letter-spacing: 1.5px;
+}
+
+.droit h3{
+    position: relative;
+    background-color: #4d4D4D;
+    padding: 10px;
+    color: #fbb03B;
+    padding-left: 20px;
+    margin-right: -15px;
+}
+
+.droit h3::after{
+    content:'';
+    position: absolute;
+    width:21px;
+    height:18px;
+    background-color: #5a5959;
+    left: 292px;
+    margin-top: 26px;
+    transform:rotate(56deg);
+    z-index: -1;
+}
+
+.comp{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#adresse{
+    position: relative;
+    top:130px;
+    margin-left:90px;
+}
+
+#name{
+    font-size: 45px;
+    font-family:'Segoe UI';
+    letter-spacing: 2px;
+    position:relative;
+    top:35px;
+    left:30px;
+    transition: transform 1s;
+}
+
+#name::after{
+    position:absolute;
+    left:70px;
+    margin-top: 15px;
+    content: "Étudiant en télécommunication";
+    color: gray;
+    font-size: 20px;
+}
+
+@keyframes nameAn {
+    0%{color:black}
+    50%{color:#fbb03B}
+    100%{color:black}
+}
+
+#name:hover{
+    animation-name:nameAn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform: scale(1.2);
+}
+
+.adli{
+    margin-left: 10px;
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    padding:0px 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: 0.7s;
+}
+
+.adli:hover{
+    font-size: 19px;
+    color:#fbb03B;
+}
+
+.titredroit{
+    position: relative;
+    color:white;
+    display: inline;
+    padding-right: 20px;
+    padding-left: 5px;
+    left:-3px;
+    border-radius: 0px 15px 15px 0;
+    background-color: #5a5959;
+}
+
+#prof{
+    transition: background-color 0.5s;
+}
+
+#prof:hover{
+    position: relative;
+    transform: scale(1.1);
+    left:25px;
+    background-color:#fbb03B;
+    border-radius: 0 40px 0 25px;
+}
+
+#prof p{
+    position: relative;
+    font-family: Arial;
+    left:20px;
+    font-weight: 600;
+    color:rgb(61, 60, 60);
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+.exp,.forma{
+    position: relative;
+    top:-40px;
+    left: -2px;
+    font-family: Arial;
+    color:rgb(61, 60, 60);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+.addinf{
+    color:gray;
+}
+
+#inf,#inf1,#inf2{
+    margin-left:25px;
+}
+
+
+
+.date{
+    position: relative;
+    font-family:'Franklin Gothic Medium';
+    left:20px;
+}
