@@ -934,13 +934,9 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  width: 80%;
+  margin: auto;
+  width: 250px;
   background: #fff;
-}
-
-.address,.email,.phone{
-  position: relative;
-  left:20%;
 }
 
 .contact .info i {
