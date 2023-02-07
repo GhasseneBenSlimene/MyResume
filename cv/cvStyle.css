@@ -36,6 +36,13 @@ body{
     border-radius: 5px;
 }
 
+.js-progress{
+    height: 100%;
+    width:90%;
+    background-color: white;
+    border-radius: 5px;
+}
+
 .C-progress{
     height: 100%;
     width:80%;
@@ -44,13 +51,13 @@ body{
 }
 .Java-progress{
     height: 100%;
-    width:75%;
+    width:85%;
     background-color: white;
     border-radius: 5px;
 }
 .hc-progress{
     height: 100%;
-    width:75%;
+    width:80%;
     background-color: white;
     border-radius: 5px;
 }
@@ -62,7 +69,7 @@ body{
 }
 .od-progress{
     height: 100%;
-    width:85%;
+    width:90%;
     background-color: white;
     border-radius: 5px;
 }
